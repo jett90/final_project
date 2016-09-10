@@ -1,15 +1,20 @@
 body {
 	text-align: center;
+	background-color: #ffffff;
 /*	z-index: 1;*/
 }
 
 h1 {
 	font-family: 'Bungee Hairline', cursive;
 	font-size: 3em;
+	color: #fff;
+	mix-blend-mode: difference;
 }
 
 p {
 	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	mix-blend-mode: difference;
 }
 
 input {
@@ -17,7 +22,9 @@ input {
 	background: transparent;
 	padding: .25em 0;
 	border: none;
-	border-bottom: 1px solid black;
+	color: #ffffff;
+	mix-blend-mode: difference;
+	border-bottom: 1px solid white;
 	width: 7.2em;
 	margin: 0 auto;
 	margin-top: 4%;
@@ -25,7 +32,7 @@ input {
 
 input:focus {
 	outline: 0;
-	border-bottom: 2px solid black;
+	border-bottom: 2px solid white;
 }
 /*input:focus::placeholder {
 }*/

@@ -15,12 +15,13 @@ $(document).ready(function() {
 			var colorName = ntc.name(colorInput);
 			console.log(colorName[0]);
 			$(".SpecialThanks").append("<h1 class=\"name\">"+colorName[1]+"</h1>");
-			$(".fade").css("animation").detach;
+			$("body").removeClass("fade");
 			$("body").css({"background-color": colorName[0]});
 		}
 
 		else if (colorInput.length != 6) {
 			$(".name").remove();
+			$("body").addClass("fade");
 		};
 	});
 });
